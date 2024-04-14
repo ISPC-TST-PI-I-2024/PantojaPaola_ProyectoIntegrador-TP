@@ -1,3 +1,48 @@
 Trabajo Práctico #1: Introducción al IoT
 
 Primer Proyecto: Crear un archivo simple de texto plano en VsCode
+
+Hice commit y push del archivo a un repositorio nuevo en mi cuenta de GitHub.
+
+Pasos realizados:
+1. Instalación de Visual Studio Code (VsCode):
+
+··Paso 1: Descargar Visual Studio Code:
+
+Web oficial de Visual Studio Code en Visual Studio Code - Code Editing.
+··Paso 2: Instalar Visual Studio Code:
+
+Una vez que se complete la descarga, se ejecuta el archivo de instalación. Seguir las instrucciones del instalador para completar el proceso de instalación de Visual Studio Code.
+2. Configuración Inicial:
+
+··Paso 1: Abrir Visual Studio Code:
+Después de la instalación, se abre Visual Studio Code en la computadora.
+··Paso 2: Instalar extensiones recomendadas:
+Menú de extensiones de Visual Studio Code haciendo clic en el ícono de la cuadrícula en la barra lateral izquierda o presionando Ctrl+Shift+X.
+En el cuadro de búsqueda, escribe el nombre de las extensiones recomendadas para el desarrollo de IoT, como "PlatformIO" para el desarrollo en Arduino y "Python" para el desarrollo en Python. Haz clic en el botón "Install" (Instalar) junto a cada extensión para instalarlas en Visual Studio Code.
+
+3. Primer Proyecto:
+
+··Paso 1: Crear un nuevo archivo en Visual Studio Code:
+Abrir Visual Studio Code. Luego, crear un nuevo archivo de texto plano seleccionando "File" (Archivo) en la barra de menú superior, luego "New File" (Nuevo archivo) o presionando Ctrl+N.
+··Paso 2: Escribir contenido en el archivo:
+Escribir cualquier contenido que desees en el archivo de texto plano. Puedes escribir notas, código, listas, etc.
+··Paso 3: Guardar el archivo:
+Guardar el archivo seleccionando "File" (Archivo) en la barra de menú superior, luego "Save" (Guardar). Eligir la ubicación y el nombre del archivo y hacer clic en "Save" (Guardar).
+··Paso 4: Configurar Git:
+Abrir la terminal integrada en Visual Studio Code seleccionando "Terminal" en la barra de menú superior, luego "New Terminal". En la terminal, configurar Git con nombre de usuario y dirección de correo electrónico utilizando los siguientes comandos:
+bashCopy code
+git config --global user.name "Tu Nombre" git config --global user.email "tu-correo@ejemplo.com" 
+Reemplazar "Tu Nombre" con tu nombre real y "tu-correo@ejemplo.com" con tu dirección de correo electrónico.
+··aso 5: Inicializar un repositorio Git:
+En la terminal de Visual Studio Code, navegar hasta la ubicación donde has guardado tu archivo utilizando el comando cd. Luego, inicializa un repositorio Git en este directorio con el comando git init.
+··Paso 6: Agregar y hacer commit del archivo:
+Usa los comandos de Git para agregar el archivo al área de preparación y hacer commit de tus cambios. Por ejemplo:
+bashCopy code
+git add nombre_del_archivo.txt git commit -m "Primer commit: Agregar archivo de texto plano" 
+··Paso 7: Crear un repositorio en GitHub:
+Iniciar sesión en tu cuenta de GitHub, luego seguir los pasos para crear un nuevo repositorio en GitHub.
+··Paso 8: Conectar el repositorio local a GitHub:
+Seguir los pasos para conectar el repositorio local de Git al repositorio en GitHub. Esto generalmente implica agregar un control remoto al repositorio local utilizando el comando git remote add origin URL_del_repositorio_remoto.
+··Paso 9: Hacer push del archivo al repositorio remoto:
+Finalmente, hacer push de los cambios al repositorio remoto en GitHub con el comando git push -u origin master.
